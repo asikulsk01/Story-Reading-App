@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Story 2"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#1E2F97"
+        android:layout_marginLeft="5dp"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="242dp" />
+
+
+    <ImageView
+        android:id="@+id/imgStory2"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/story2" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnListenStory2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:text="Listen" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baluram’s secret"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#1E2F97"
+            android:layout_marginLeft="123dp"
+            android:layout_marginTop="5dp"
+            tools:layout_editor_absoluteX="174dp"
+            tools:layout_editor_absoluteY="242dp" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="8dp"
+        >
+
+        <TextView
+            android:id="@+id/txtStory2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif"
+            android:text="Baluram was the royal barber. Every month, a chariot would come to his house, to take him to the palace where he would give the king a royal haircut.
+
+            \n\nBaluram’s friends teased him, “The king must be generous. A big tummy is a sign of prosperity.” Baluram would join his friends in laughter. But he was a worried man, because his tummy was getting bigger and bigger.
+
+            \n\nHis wife took him to a doctor who gave Baluram a full check-up. “I don’t like this tummy. It’s too big,” said the doctor, shaking his head.
+
+            \n\n“Why is it growing big then?” asked Baluram’s wife.
+
+            \n\n“It’s because Baluram is holding a secret in his head,” explained the doctor, “That has affected his tummy.”
+
+            \n\n“If he tells the secret to someone else, it will reduce the pressure on his tummy,” said the doctor.
+
+            \n\nAfter they returned home, the wife wanted to know Baluram’s secret. “I can’t tell you,” said Baluram looking helpless, “I have promised I would not tell anybody, not even my wife.”
+
+            \n\nThe wife was now worried. Her husband was sticking to his promise, but his tummy was growing. She was afraid that at this rate it would simply explode one day!
+
+            \n\n“Do one thing,” said the wife, “Don’t tell the secret to anyone – not even to me. Go to a lonely place, make sure no one is around, and speak out the secret. Once you the secret is out of your mind, your tummy will shrink.”
+
+            \n\nBaluram liked the idea. He left home early morning and went to the outskirts of the city. He looked left and right. No one was around. But he wanted to be careful. He saw a huge tree with a big hole. His face brightened. He put his head into the tree’s hollow and shouted something loudly. He felt better. He shouted again. He felt better still. He shouted once more into the tree hollow. He felt light in the head. His tummy shrunk to its normal size.
+
+            \n\nBaluram returned home. His tummy was light. The secret was out of his mind, but still remained a secret, which no one else knew about.
+
+            \n\nOr so he thought…
+"/>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        >
+
+        <Button
+            android:id="@+id/btnScrn2Back"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:text="Previous"
+            tools:layout_editor_absoluteX="171dp"
+            tools:layout_editor_absoluteY="314dp" />
+
+        <Button
+            android:id="@+id/btnScrn2Home"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:text="Home" />
+
+        <Button
+            android:id="@+id/btnScrn2Next"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="27dp"
+            android:text="Next"
+            tools:layout_editor_absoluteX="171dp"
+            tools:layout_editor_absoluteY="314dp" />
+    </LinearLayout>
+
+</LinearLayout>

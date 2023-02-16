@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Story 1"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#1E2F97"
+        android:layout_marginLeft="5dp"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="242dp" />
+
+
+    <ImageView
+        android:id="@+id/imgStory2"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/story1" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnListenStory1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:text="Listen" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A trip to heaven"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#1E2F97"
+            android:layout_marginLeft="123dp"
+            android:layout_marginTop="5dp"
+            tools:layout_editor_absoluteX="174dp"
+            tools:layout_editor_absoluteY="242dp" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="8dp"
+        >
+
+        <TextView
+            android:id="@+id/txtStory2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif"
+            android:text="One morning, a farmer found that some animal had broken into his farm in the night and had eaten some of the sugar canes he was growing. He decided to keep a watch. In the middle of the night, he went to his farm to make sure no animal had invaded the farm.
+
+            \n\nTo his surprise, he saw a white elephant busy eating the sugar canes. He ran after the elephant shouting. The elephant tried to flee. The farmer caught it by its tail. To his horror, he found the elephant rising off the ground. The jumbo was flying!
+
+            \n\nThe frightened farmer held on the tail of the flying elephant. The elephant landed in a garden above the clouds. The farmer recalled his grandmother talking about heaven. “This must be heaven,” he thought. He was delighted to see beautiful trees laden with juicy fruits. He started eating the fruits. He put some fruits in his pocket. He wanted to share them with his friends back on earth. When the elephant flew again, the farmer held its tail. The elephant flew down heading for the sugarcane farm. After they landed on earth, the farmer ran home.
+
+            \n\nThe farmer’s friends would not believe his tale. He offered them juicy mangoes that he had plucked from the heavenly trees. The fruits were so sweet that all his friends agreed that they tasted heavenly. They wanted to know when he was going to heaven again. The farmer said he was planning a visit that night. His friends begged him to take them with him. The farmer agreed. “Yes, let’s all go to heaven and celebrate there,” he said. The friends decided they would meet in the sugarcane farm at midnight.
+
+            \n\nThat night as the farmer and his friends waited in the farm, they saw the white elephant descending from the sky. They waited patiently till the elephant had its share of sugarcanes. As the elephant was ready to take off, the farmer ran and held its tail. As the elephant rose, one of the friends ran and caught hold of the farmer’s legs. As the elephant rose higher, another man ran and held on to the legs of the man holding the legs of the farmer. Thus, the human chain grew, as every man held on to the legs of the other above him.
+
+            \n\nAs the elephant flew the friends started talking. One of them wanted to know whether there were water melons in the heavenly garden. “Of course, there are water melons,” said the farmer. “They are so huge!” he said.
+
+            \n\nAfter they returned home, the wife wanted to know Baluram’s secret. “I can’t tell you,” said Baluram looking helpless, “I have promised I would not tell anybody, not even my wife.”
+
+            \n\n“How big?” the friend asked.
+
+            \n\n“This big,” said the farmer, demonstrating with his hands.”
+
+            \n\nAs he opened his hands to show how big the heavenly water melons were, the farmer and his friends fell. Luckily, they fell into a stream on good old earth.
+
+            \n\nThe heavenly elephant never returned to the sugarcane farm although the farmer and his friends waited for his return.
+"/>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        >
+
+        <Button
+            android:id="@+id/btnScrn1Back"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:text="Home"
+            tools:layout_editor_absoluteX="171dp"
+            tools:layout_editor_absoluteY="314dp" />
+
+
+
+        <Button
+            android:id="@+id/btnScrn1Next"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="170dp"
+            android:text="Next"
+            tools:layout_editor_absoluteX="171dp"
+            tools:layout_editor_absoluteY="314dp" />
+    </LinearLayout>
+
+</LinearLayout>
